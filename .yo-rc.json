@@ -18,6 +18,24 @@
         "marker": "/* Add Component LESS Above */",
         "template": "@import \"<%= filename %>\";"
       }
-    }
+    },
+    "modules": [
+      {
+        "name": "rgAuth",
+        "file": "modules/rgAuth/rgAuth.js"
+      },
+      {
+        "name": "rgIdentBar",
+        "file": "modules/rgIndentBar/rgIdentBar.js"
+      },
+      {
+        "name": "rgMenu",
+        "file": "modules/rgMenu/rgMenu.js"
+      },
+      {
+        "name": "rgDashboard",
+        "file": "modules/rgDashboard/rgDashboard.js"
+      }
+    ]
   }
 }
